@@ -9,5 +9,6 @@ package com.swsw.codereviewerandroid.models;
  */
 public class TUserInfo {
 
+	public String mUserName;
 	public String mNickName;
 }
