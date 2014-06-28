@@ -2,5 +2,14 @@
 
     <string name="app_name">Code Reviewer</string>
     <string name="login_name">Login</string>
+    <string name="login_user_name">User Name:</string>
+    <string name="login_pwd">Password:</string>
+    <string name="login_user_name_hint">User Name</string>
+    <string name="button_login">Login</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="login_go">Login</string>
 
 </resources>
