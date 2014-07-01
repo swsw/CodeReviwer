@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.swsw.codereviewerandroid.R;
+import com.swsw.codereviewerandroid.events.LoginEvent;
 
 /**
  * @author VinsonCai
@@ -53,8 +54,15 @@ public class LoginActivity extends Activity {
 		}
 	}
 
-	private boolean isValid(String userName, String pwd) {
+	public void onEventMainThread(LoginEvent event) {
 
+	}
+
+	private boolean isValid(String userName, String pwd) {
+		if (userName.isEmpty() || pwd.isEmpty()) {
+			return false;
+		}
 		return true;
 	}
+
 }
